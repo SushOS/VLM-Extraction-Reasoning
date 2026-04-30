@@ -1,0 +1,12 @@
+default_model: qwen2_5_vl_3b
+comparison_model: smolvlm2_2b
+max_new_tokens: 700
+dpi: 200
+preprocessing:
+  grayscale: true
+  denoise: true
+  deskew: true
+  max_side: 1536
+paths:
+  processed_pages_dir: results/processed_pages
+  sample_output_dir: results/pipeline_outputs
