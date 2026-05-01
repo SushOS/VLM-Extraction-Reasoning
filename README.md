@@ -1,6 +1,6 @@
 # VLM PDF Extraction Assignment
 
-Simple end-to-end document understanding pipeline built for the Antares AI/ML Engineer assignment. The repo uses the real CORD dataset for quantitative model evaluation and uses reportlab-generated PDFs only for PDF ingestion demos.
+The repo uses the real CORD dataset for quantitative model evaluation and uses reportlab-generated PDFs only for PDF ingestion demos.
 
 ## What This Builds
 
@@ -12,6 +12,7 @@ Simple end-to-end document understanding pipeline built for the Antares AI/ML En
 - CORD benchmark comparison across two open-source VLMs
 - Reportlab PDF samples for end-to-end PDF testing
 - Simple demo UI and optional acceleration helpers
+- Comparison of Finetuned and base model.
 
 ## Model Choice
 
