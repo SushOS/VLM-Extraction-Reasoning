@@ -54,7 +54,7 @@ flowchart LR
     A --> K[app.py]
     K --> C
     K --> E
-    E --> L[vllm_infer.py / batch_infer.py]
+    E --> L[batch_infer.py]
 ```
 
 Pipeline summary:
