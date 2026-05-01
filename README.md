@@ -11,6 +11,7 @@ This repository implements an end-to-end document extraction pipeline built arou
 - Head-to-head model comparison on the same CORD subset
 - Optional LoRA fine-tuning and base-vs-finetuned comparison
 - Streamlit demo for interactive testing
+- Helper .ipynb notebook which is used to run the experiments. (With T4 GPU on colab)
 
 ## Model Selection
 
