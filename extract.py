@@ -24,6 +24,7 @@ MODEL_CONFIGS = {
 
 SYSTEM_PROMPT = """
 You extract structured information from business documents.
+Reason briefly in private before answering, but never reveal your reasoning.
 Return valid JSON only.
 Do not add markdown fences.
 If a value is missing, use null.
@@ -44,6 +45,22 @@ Read this document page and return a JSON object with this schema:
   "signature_present": "yes" | "no",
   "summary": string
 }
+Work in this order internally: identify document type, read key entities, extract fields, then verify the final JSON against the schema.
+Only include facts visible in the document.
+If a field is uncertain, prefer null over guessing.
+Example output:
+{
+  "document_type": "invoice",
+  "vendor_name": "Northwind Supplies",
+  "date": "2026-04-12",
+  "total_amount": "$133.00",
+  "currency": "USD",
+  "key_value_pairs": [{"field": "invoice_number", "value": "INV-24012"}],
+  "line_items": [{"name": "Printer Paper", "quantity": "4", "price": "$12.00"}],
+  "form_fields": [],
+  "signature_present": "no",
+  "summary": "Invoice from Northwind Supplies dated 2026-04-12."
+}
 """.strip()
 
 KEY_VALUE_PROMPT = """
@@ -53,6 +70,7 @@ Use this schema:
   "key_value_pairs": [{"field": string, "value": string}]
 }
 If no clear key-value pairs exist, return an empty list.
+Only include text pairs that are explicitly visible in the document.
 """.strip()
 
 SIGNATURE_PROMPT = """
@@ -61,6 +79,7 @@ Return JSON only with this schema:
 {
   "signature_present": "yes" | "no"
 }
+Return "yes" only if a handwritten or stylized signature mark is visibly present.
 """.strip()
 
 FORM_FIELDS_PROMPT = """
@@ -70,6 +89,7 @@ Return JSON only with this schema:
   "form_fields": [{"field": string, "status": "filled" | "empty", "value": string | null}]
 }
 If no form fields exist, return an empty list.
+Mark a field as "empty" only when the field is visibly present but not filled in.
 """.strip()
 
 RECEIPT_SUMMARY_PROMPT = """
@@ -80,6 +100,7 @@ Return JSON only with this schema:
   "date": string | null,
   "total_amount": string | null
 }
+Use the receipt total, not a subtotal or tax line.
 """.strip()
 
 CORD_EXTRACTION_PROMPT = """
@@ -103,6 +124,7 @@ Use this exact schema:
 }
 Missing values must be null.
 Do not add extra keys.
+Internally align item names and totals before producing the final JSON.
 """.strip()
 
 PROMPTS = {
@@ -112,6 +134,26 @@ PROMPTS = {
     "form_fields": FORM_FIELDS_PROMPT,
     "receipt_summary": RECEIPT_SUMMARY_PROMPT,
     "cord_receipt": CORD_EXTRACTION_PROMPT,
+}
+
+TOP_LEVEL_KEYS = {
+    "generic_document": {
+        "document_type",
+        "vendor_name",
+        "date",
+        "total_amount",
+        "currency",
+        "key_value_pairs",
+        "line_items",
+        "form_fields",
+        "signature_present",
+        "summary",
+    },
+    "key_value_pairs": {"key_value_pairs"},
+    "signature_check": {"signature_present"},
+    "form_fields": {"form_fields"},
+    "receipt_summary": {"vendor_name", "date", "total_amount"},
+    "cord_receipt": {"menu", "sub_total", "total"},
 }
 
 
@@ -201,6 +243,42 @@ def safe_json_loads(text: str, task_name: str) -> dict[str, Any]:
         return payload
 
 
+def has_expected_top_level_keys(payload: dict[str, Any], task_name: str) -> bool:
+    expected = TOP_LEVEL_KEYS[task_name]
+    actual = set(payload)
+    if "raw_response" in actual:
+        actual.remove("raw_response")
+    return expected.issubset(actual)
+
+
+def needs_repair(payload: dict[str, Any], task_name: str, raw_text: str) -> bool:
+    if payload.get("raw_response") == raw_text and not has_expected_top_level_keys(payload, task_name):
+        return True
+    if not has_expected_top_level_keys(payload, task_name):
+        return True
+    if task_name == "cord_receipt" and set(payload).difference({"menu", "sub_total", "total", "raw_response"}):
+        return True
+    return False
+
+
+def build_repair_prompt(task_name: str, bad_response: str) -> str:
+    schema_prompt = PROMPTS[task_name]
+    return f"""
+The previous answer did not fully match the required JSON schema.
+Repair it using only evidence visible in the document image.
+Do not add markdown fences.
+Do not explain your reasoning.
+If a field is missing or uncertain, use null or an empty list as required.
+Return valid JSON only.
+
+Required task and schema:
+{schema_prompt}
+
+Previous answer to repair:
+{bad_response}
+""".strip()
+
+
 @dataclass
 class VLMExtractor:
     model_name: str
@@ -265,10 +343,20 @@ class VLMExtractor:
         data["raw_response"] = text
         return data
 
+    def run_with_repair(self, image_path: str | Path, task_name: str) -> dict[str, Any]:
+        data = self.run_prompt(image_path, PROMPTS[task_name], task_name=task_name)
+        if not needs_repair(data, task_name, data["raw_response"]):
+            return data
+
+        repair_prompt = build_repair_prompt(task_name, data["raw_response"])
+        repaired = self.run_prompt(image_path, repair_prompt, task_name=task_name)
+        repaired["raw_response_initial"] = data["raw_response"]
+        return repaired if has_expected_top_level_keys(repaired, task_name) else data
+
     def extract_page(self, image_path: str | Path, task_name: str = "generic_document") -> dict[str, Any]:
         if task_name not in PROMPTS:
             raise ValueError(f"Unknown task '{task_name}'")
-        data = self.run_prompt(image_path, PROMPTS[task_name], task_name=task_name)
+        data = self.run_with_repair(image_path, task_name=task_name)
         data["page_path"] = str(image_path)
         data["model_name"] = self.model_name
         data["task_name"] = task_name

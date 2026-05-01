@@ -23,7 +23,7 @@ def flatten_json(payload: Any, prefix: str = "") -> dict[str, str]:
 
     if isinstance(payload, dict):
         for key, value in payload.items():
-            if key in {"raw_response", "page_path", "model_name", "task_name", "document_name", "page_number"}:
+            if key in {"raw_response", "raw_response_initial", "page_path", "model_name", "task_name", "document_name", "page_number"}:
                 continue
             next_prefix = f"{prefix}.{key}" if prefix else key
             output.update(flatten_json(value, next_prefix))
