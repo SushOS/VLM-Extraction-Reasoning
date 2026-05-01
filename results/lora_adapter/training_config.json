@@ -1,0 +1,17 @@
+{
+  "model_id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+  "train_split": "train",
+  "train_sample_count": 128,
+  "train_offset": 0,
+  "eval_split": "validation",
+  "eval_sample_count": 32,
+  "eval_offset": 0,
+  "max_image_size": 768,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.0001,
+  "num_train_epochs": 2.0,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "seed": 42
+}

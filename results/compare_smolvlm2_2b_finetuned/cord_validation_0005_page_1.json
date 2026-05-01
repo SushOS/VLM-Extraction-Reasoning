@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "\uace0\uae30\ub3fc\uc9c0",
+      "cnt": "1",
+      "unitprice": "15000",
+      "price": "15000"
+    },
+    {
+      "nm": "\uc591\ub150\uce69",
+      "cnt": "1",
+      "unitprice": "1000",
+      "price": "1000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "16000",
+    "discount_price": "0",
+    "service_price": "0",
+    "tax_price": "0"
+  },
+  "total": {
+    "total_price": "16000",
+    "cashprice": "16000",
+    "changeprice": "0",
+    "creditcardprice": "0",
+    "menuqty_cnt": "1"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"\uace0\uae30\ub3fc\uc9c0\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"15000\",\n      \"price\": \"15000\"\n    },\n    {\n      \"nm\": \"\uc591\ub150\uce69\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"1000\",\n      \"price\": \"1000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"16000\",\n    \"discount_price\": \"0\",\n    \"service_price\": \"0\",\n    \"tax_price\": \"0\"\n  },\n  \"total\": {\n    \"total_price\": \"16000\",\n    \"cashprice\": \"16000\",\n    \"changeprice\": \"0\",\n    \"creditcardprice\": \"0\",\n    \"menuqty_cnt\": \"1\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_finetuned/cord_validation_0005_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0005.png",
+  "page_number": 1
+}

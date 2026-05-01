@@ -1,0 +1,9 @@
+{
+  "form_fields": [],
+  "raw_response": "[\n  {\n    \"field\": \"Company Name\",\n    \"status\": \"filled\",\n    \"value\": \"Northwind Traders\"\n  },\n  {\n    \"field\": \"Tax ID\",\n    \"status\": \"filled\",\n    \"value\": \"47-110291\"\n  }\n]",
+  "page_path": "results/processed_pages/sample_form_vendor_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "form_fields",
+  "document_name": "sample_form_vendor.pdf",
+  "page_number": 1
+}

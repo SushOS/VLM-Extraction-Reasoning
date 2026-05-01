@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "nm": "ICE CREAM",
+      "cnt": "1.00",
+      "unitprice": "2.00",
+      "price": "2.00"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "7.27",
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": "7.27"
+  },
+  "total": {
+    "total_price": "8.00",
+    "cashprice": "8.00",
+    "changeprice": null,
+    "creditcardprice": null,
+    "menuqty_cnt": "1"
+  },
+  "raw_response": "```json\n{\n  \"menu\": [\n    {\n      \"nm\": \"ICE CREAM\",\n      \"cnt\": \"1.00\",\n      \"unitprice\": \"2.00\",\n      \"price\": \"2.00\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"7.27\",\n    \"discount_price\": null,\n    \"service_price\": null,\n    \"tax_price\": \"7.27\"\n  },\n  \"total\": {\n    \"total_price\": \"8.00\",\n    \"cashprice\": \"8.00\",\n    \"changeprice\": null,\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"1\"\n  }\n}\n```",
+  "page_path": "results/compare_processed_qwen2_5_vl_3b/cord_validation_0005_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0005.png",
+  "page_number": 1
+}

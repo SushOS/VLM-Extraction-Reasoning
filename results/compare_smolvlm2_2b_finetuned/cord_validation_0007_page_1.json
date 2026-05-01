@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "nm": "Chopra Devi",
+      "cnt": "1",
+      "unitprice": "0",
+      "price": "0"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "0",
+    "discount_price": "0",
+    "service_price": "0",
+    "tax_price": "0"
+  },
+  "total": {
+    "total_price": "0",
+    "cashprice": "0",
+    "changeprice": "0",
+    "creditcardprice": "0",
+    "menuqty_cnt": "1"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"Chopra Devi\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"0\",\n      \"price\": \"0\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"0\",\n    \"discount_price\": \"0\",\n    \"service_price\": \"0\",\n    \"tax_price\": \"0\"\n  },\n  \"total\": {\n    \"total_price\": \"0\",\n    \"cashprice\": \"0\",\n    \"changeprice\": \"0\",\n    \"creditcardprice\": \"0\",\n    \"menuqty_cnt\": \"1\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_finetuned/cord_validation_0007_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0007.png",
+  "page_number": 1
+}

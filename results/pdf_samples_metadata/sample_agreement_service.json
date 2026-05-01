@@ -1,0 +1,27 @@
+{
+  "name": "sample_agreement_service",
+  "title": "Service Agreement",
+  "doc_type": "Agreement",
+  "date": "2026-04-19",
+  "ref": "AGR-221",
+  "rows": [
+    [
+      "Provider",
+      "BrightFix Solutions",
+      ""
+    ],
+    [
+      "Client",
+      "Mosaic Retail",
+      ""
+    ],
+    [
+      "Monthly Fee",
+      "",
+      "$500.00"
+    ]
+  ],
+  "total": "$500.00",
+  "signature": true,
+  "form_fields": []
+}

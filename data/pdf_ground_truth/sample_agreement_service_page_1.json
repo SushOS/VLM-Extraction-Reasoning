@@ -1,0 +1,49 @@
+{
+  "document_type": "agreement",
+  "vendor_name": "Service Agreement",
+  "date": "2026-04-19",
+  "total_amount": "$500.00",
+  "currency": "USD",
+  "key_value_pairs": [
+    {
+      "field": "document_type",
+      "value": "Agreement"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Service Agreement"
+    },
+    {
+      "field": "date",
+      "value": "2026-04-19"
+    },
+    {
+      "field": "reference",
+      "value": "AGR-221"
+    },
+    {
+      "field": "total_amount",
+      "value": "$500.00"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Provider",
+      "quantity": "BrightFix Solutions",
+      "price": null
+    },
+    {
+      "name": "Client",
+      "quantity": "Mosaic Retail",
+      "price": null
+    },
+    {
+      "name": "Monthly Fee",
+      "quantity": null,
+      "price": "$500.00"
+    }
+  ],
+  "form_fields": [],
+  "signature_present": "yes",
+  "summary": "Agreement for Service Agreement"
+}

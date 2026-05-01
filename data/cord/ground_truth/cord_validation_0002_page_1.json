@@ -1,0 +1,23 @@
+{
+  "menu": [
+    {
+      "nm": "S-Ovaltine 50%",
+      "cnt": "1",
+      "unitprice": "20,000",
+      "price": "20,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "18,181",
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": "1,818"
+  },
+  "total": {
+    "total_price": "20,000",
+    "cashprice": "100,000",
+    "changeprice": "80,000",
+    "creditcardprice": null,
+    "menuqty_cnt": null
+  }
+}

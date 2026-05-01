@@ -1,0 +1,39 @@
+{
+  "document_type": "agreement",
+  "vendor_name": "BrightFix Solutions",
+  "date": "2026-04-19",
+  "total_amount": "$500.00",
+  "currency": "USD",
+  "key_value_pairs": [
+    {
+      "field": "Provider",
+      "value": "BrightFix Solutions"
+    },
+    {
+      "field": "Client",
+      "value": "Mosaic Retail"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Monthly Fee",
+      "quantity": null,
+      "price": "$500.00"
+    }
+  ],
+  "form_fields": [
+    {
+      "field": "Monthly Fee",
+      "status": "filled",
+      "value": "$500.00"
+    }
+  ],
+  "signature_present": "no",
+  "summary": "Service Agreement for BrightFix Solutions with Mosaic Retail, dated 2026-04-19.",
+  "raw_response": "```json\n{\n  \"document_type\": \"agreement\",\n  \"vendor_name\": \"BrightFix Solutions\",\n  \"date\": \"2026-04-19\",\n  \"total_amount\": \"$500.00\",\n  \"currency\": \"USD\",\n  \"key_value_pairs\": [\n    {\n      \"field\": \"Provider\",\n      \"value\": \"BrightFix Solutions\"\n    },\n    {\n      \"field\": \"Client\",\n      \"value\": \"Mosaic Retail\"\n    }\n  ],\n  \"line_items\": [\n    {\n      \"name\": \"Monthly Fee\",\n      \"quantity\": null,\n      \"price\": \"$500.00\"\n    }\n  ],\n  \"form_fields\": [\n    {\n      \"field\": \"Monthly Fee\",\n      \"status\": \"filled\",\n      \"value\": \"$500.00\"\n    }\n  ],\n  \"signature_present\": \"no\",\n  \"summary\": \"Service Agreement for BrightFix Solutions with Mosaic Retail, dated 2026-04-19.\"\n}\n```",
+  "page_path": "results/processed_pages/sample_agreement_service_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "generic_document",
+  "document_name": "sample_agreement_service.pdf",
+  "page_number": 1
+}

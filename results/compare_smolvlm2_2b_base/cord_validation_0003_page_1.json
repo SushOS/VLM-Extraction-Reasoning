@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "M-Caramel 1 Black Tea",
+      "cnt": "1X",
+      "unitprice": "28,000",
+      "price": "28,000"
+    },
+    {
+      "nm": "Les Ice",
+      "cnt": "1X",
+      "unitprice": "28,000",
+      "price": "28,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "28,000",
+    "discount_price": "0",
+    "service_price": "0",
+    "tax_price": "0"
+  },
+  "total": {
+    "total_price": "28,000",
+    "cashprice": "28,000",
+    "changeprice": "0",
+    "creditcardprice": "28,000",
+    "menuqty_cnt": "1X"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"M-Caramel 1 Black Tea\",\n      \"cnt\": \"1X\",\n      \"unitprice\": \"28,000\",\n      \"price\": \"28,000\"\n    },\n    {\n      \"nm\": \"Les Ice\",\n      \"cnt\": \"1X\",\n      \"unitprice\": \"28,000\",\n      \"price\": \"28,000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"28,000\",\n    \"discount_price\": \"0\",\n    \"service_price\": \"0\",\n    \"tax_price\": \"0\"\n  },\n  \"total\": {\n    \"total_price\": \"28,000\",\n    \"cashprice\": \"28,000\",\n    \"changeprice\": \"0\",\n    \"creditcardprice\": \"28,000\",\n    \"menuqty_cnt\": \"1X\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_base/cord_validation_0003_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0003.png",
+  "page_number": 1
+}

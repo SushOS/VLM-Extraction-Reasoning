@@ -1,0 +1,12 @@
+document,exact_match,precision,recall,f1,signature_accuracy,signature_precision,signature_recall,signature_f1
+cord_validation_0000_page_1,0.4286,0.6429,0.75,0.6923,,,,
+cord_validation_0001_page_1,0.0,0.0,0.0,0.0,,,,
+cord_validation_0002_page_1,0.4118,0.7778,0.7778,0.7778,,,,
+cord_validation_0003_page_1,0.6154,0.8,0.8889,0.8421,,,,
+cord_validation_0004_page_1,0.3529,0.5455,0.75,0.6316,,,,
+cord_validation_0005_page_1,0.0769,0.1111,0.1429,0.125,,,,
+cord_validation_0006_page_1,0.0,0.0,0.0,0.0,,,,
+cord_validation_0007_page_1,0.4118,0.5,0.7778,0.6087,,,,
+cord_validation_0008_page_1,0.7059,0.8571,0.9231,0.8889,,,,
+cord_validation_0009_page_1,0.0,0.0,0.0,0.0,,,,
+AVERAGE,0.3003,0.4234,0.501,0.4566,0.0,0.0,0.0,0.0

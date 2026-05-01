@@ -1,0 +1,9 @@
+{
+  "signature_present": "yes",
+  "raw_response": "{\n  \"signature_present\": \"yes\"\n}",
+  "page_path": "results/processed_pages/sample_invoice_alpha_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "signature_check",
+  "document_name": "sample_invoice_alpha.pdf",
+  "page_number": 1
+}

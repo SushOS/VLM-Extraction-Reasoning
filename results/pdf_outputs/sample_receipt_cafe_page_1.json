@@ -1,0 +1,58 @@
+{
+  "document_type": "receipt",
+  "vendor_name": "Lakeview Cafe",
+  "date": "2026-04-18",
+  "total_amount": "$14.58",
+  "currency": "USD",
+  "key_value_pairs": [
+    {
+      "field": "Latte",
+      "value": "2"
+    },
+    {
+      "field": "Croissant",
+      "value": "1"
+    },
+    {
+      "field": "Tax",
+      "value": "$1.08"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Latte",
+      "quantity": "2",
+      "price": "$9.00"
+    },
+    {
+      "name": "Croissant",
+      "quantity": "1",
+      "price": "$4.50"
+    }
+  ],
+  "form_fields": [
+    {
+      "field": "Latte",
+      "status": "filled",
+      "value": "2"
+    },
+    {
+      "field": "Croissant",
+      "status": "filled",
+      "value": "1"
+    },
+    {
+      "field": "Tax",
+      "status": "filled",
+      "value": "$1.08"
+    }
+  ],
+  "signature_present": "no",
+  "summary": "Receipt from Lakeview Cafe on 2026-04-18 for $14.58",
+  "raw_response": "```json\n{\n  \"document_type\": \"receipt\",\n  \"vendor_name\": \"Lakeview Cafe\",\n  \"date\": \"2026-04-18\",\n  \"total_amount\": \"$14.58\",\n  \"currency\": \"USD\",\n  \"key_value_pairs\": [\n    {\n      \"field\": \"Latte\",\n      \"value\": \"2\"\n    },\n    {\n      \"field\": \"Croissant\",\n      \"value\": \"1\"\n    },\n    {\n      \"field\": \"Tax\",\n      \"value\": \"$1.08\"\n    }\n  ],\n  \"line_items\": [\n    {\n      \"name\": \"Latte\",\n      \"quantity\": \"2\",\n      \"price\": \"$9.00\"\n    },\n    {\n      \"name\": \"Croissant\",\n      \"quantity\": \"1\",\n      \"price\": \"$4.50\"\n    }\n  ],\n  \"form_fields\": [\n    {\n      \"field\": \"Latte\",\n      \"status\": \"filled\",\n      \"value\": \"2\"\n    },\n    {\n      \"field\": \"Croissant\",\n      \"status\": \"filled\",\n      \"value\": \"1\"\n    },\n    {\n      \"field\": \"Tax\",\n      \"status\": \"filled\",\n      \"value\": \"$1.08\"\n    }\n  ],\n  \"signature_present\": \"no\",\n  \"summary\": \"Receipt from Lakeview Cafe on 2026-04-18 for $14.58\"\n}\n```",
+  "page_path": "results/processed_pages/sample_receipt_cafe_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "generic_document",
+  "document_name": "sample_receipt_cafe.pdf",
+  "page_number": 1
+}

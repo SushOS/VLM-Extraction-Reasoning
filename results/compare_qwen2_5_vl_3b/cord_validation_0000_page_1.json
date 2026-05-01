@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "nm": "REAL GANACHE",
+      "cnt": "1",
+      "unitprice": "16,500",
+      "price": null
+    },
+    {
+      "nm": "EGG TART",
+      "cnt": "1",
+      "unitprice": "13,000",
+      "price": null
+    },
+    {
+      "nm": "PIZZA TOAST",
+      "cnt": "1",
+      "unitprice": "16,000",
+      "price": null
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "45,500",
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "45,500",
+    "cashprice": "50,000",
+    "changeprice": "4,500",
+    "creditcardprice": null,
+    "menuqty_cnt": "3"
+  },
+  "raw_response": "```json\n{\n  \"menu\": [\n    {\n      \"nm\": \"REAL GANACHE\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"16,500\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"EGG TART\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"13,000\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"PIZZA TOAST\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"16,000\",\n      \"price\": null\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"45,500\",\n    \"discount_price\": null,\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"45,500\",\n    \"cashprice\": \"50,000\",\n    \"changeprice\": \"4,500\",\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"3\"\n  }\n}\n```",
+  "page_path": "results/compare_processed_qwen2_5_vl_3b/cord_validation_0000_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0000.png",
+  "page_number": 1
+}

@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "TALAM UNGU",
+      "cnt": "3X",
+      "unitprice": "@650",
+      "price": "19,500"
+    },
+    {
+      "nm": "MIKI KECEK",
+      "cnt": "0",
+      "unitprice": "@0",
+      "price": "0"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "11,700",
+    "discount_price": "0",
+    "service_price": "0",
+    "tax_price": "0"
+  },
+  "total": {
+    "total_price": "11,700",
+    "cashprice": "28,000",
+    "changeprice": "8,300",
+    "creditcardprice": "0",
+    "menuqty_cnt": "4"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"19,500\"\n    },\n    {\n      \"nm\": \"MIKI KECEK\",\n      \"cnt\": \"0\",\n      \"unitprice\": \"@0\",\n      \"price\": \"0\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"11,700\",\n    \"discount_price\": \"0\",\n    \"service_price\": \"0\",\n    \"tax_price\": \"0\"\n  },\n  \"total\": {\n    \"total_price\": \"11,700\",\n    \"cashprice\": \"28,000\",\n    \"changeprice\": \"8,300\",\n    \"creditcardprice\": \"0\",\n    \"menuqty_cnt\": \"4\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b/cord_validation_0008_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0008.png",
+  "page_number": 1
+}

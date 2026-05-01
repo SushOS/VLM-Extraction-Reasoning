@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "nm": "S-ovaline",
+      "cnt": "1",
+      "unitprice": "20,000",
+      "price": "20,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "1,818",
+    "discount_price": "0",
+    "service_price": "0",
+    "tax_price": "100,000"
+  },
+  "total": {
+    "total_price": "100,000",
+    "cashprice": "100,000",
+    "changeprice": "0",
+    "creditcardprice": "0",
+    "menuqty_cnt": "1"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"S-ovaline\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"20,000\",\n      \"price\": \"20,000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"1,818\",\n    \"discount_price\": \"0\",\n    \"service_price\": \"0\",\n    \"tax_price\": \"100,000\"\n  },\n  \"total\": {\n    \"total_price\": \"100,000\",\n    \"cashprice\": \"100,000\",\n    \"changeprice\": \"0\",\n    \"creditcardprice\": \"0\",\n    \"menuqty_cnt\": \"1\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_finetuned/cord_validation_0002_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0002.png",
+  "page_number": 1
+}

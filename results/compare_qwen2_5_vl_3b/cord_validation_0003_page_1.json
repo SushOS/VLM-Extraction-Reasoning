@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "nm": "M-Caramel Black Tea",
+      "cnt": "1X",
+      "unitprice": "@28,000",
+      "price": "28,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "28,000",
+    "discount_price": "0",
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "28,000",
+    "cashprice": "28,000",
+    "changeprice": "0",
+    "creditcardprice": null,
+    "menuqty_cnt": "1"
+  },
+  "raw_response": "```json\n{\n  \"menu\": [\n    {\n      \"nm\": \"M-Caramel Black Tea\",\n      \"cnt\": \"1X\",\n      \"unitprice\": \"@28,000\",\n      \"price\": \"28,000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"28,000\",\n    \"discount_price\": \"0\",\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"28,000\",\n    \"cashprice\": \"28,000\",\n    \"changeprice\": \"0\",\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"1\"\n  }\n}\n```",
+  "page_path": "results/compare_processed_qwen2_5_vl_3b/cord_validation_0003_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0003.png",
+  "page_number": 1
+}

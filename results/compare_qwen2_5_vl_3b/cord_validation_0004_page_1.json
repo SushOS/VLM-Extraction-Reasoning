@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "BBQ Chicken",
+      "cnt": "1",
+      "unitprice": "41,000",
+      "price": null
+    },
+    {
+      "nm": "- Sedang",
+      "cnt": "1",
+      "unitprice": "0",
+      "price": null
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "41,000",
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "41,000",
+    "cashprice": "50.000",
+    "changeprice": "9.000",
+    "creditcardprice": null,
+    "menuqty_cnt": "1"
+  },
+  "raw_response": "```json\n{\n  \"menu\": [\n    {\n      \"nm\": \"BBQ Chicken\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"41,000\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"- Sedang\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"0\",\n      \"price\": null\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"41,000\",\n    \"discount_price\": null,\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"41,000\",\n    \"cashprice\": \"50.000\",\n    \"changeprice\": \"9.000\",\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"1\"\n  }\n}\n```",
+  "page_path": "results/compare_processed_qwen2_5_vl_3b/cord_validation_0004_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0004.png",
+  "page_number": 1
+}

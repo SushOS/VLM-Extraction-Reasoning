@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "nm": "Kopi SusuKoel' 1",
+      "cnt": "1",
+      "unitprice": "23.000",
+      "price": "23.000"
+    },
+    {
+      "nm": "Tuna",
+      "cnt": "1",
+      "unitprice": "50.000",
+      "price": "50.000"
+    },
+    {
+      "nm": "Kembali",
+      "cnt": "1",
+      "unitprice": "27.000",
+      "price": "27.000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "23.000",
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "23.000",
+    "cashprice": "23.000",
+    "changeprice": null,
+    "creditcardprice": null,
+    "menuqty_cnt": "1"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"Kopi SusuKoel' 1\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"23.000\",\n      \"price\": \"23.000\"\n    },\n    {\n      \"nm\": \"Tuna\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"50.000\",\n      \"price\": \"50.000\"\n    },\n    {\n      \"nm\": \"Kembali\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"27.000\",\n      \"price\": \"27.000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"23.000\",\n    \"discount_price\": null,\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"23.000\",\n    \"cashprice\": \"23.000\",\n    \"changeprice\": null,\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"1\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_base/cord_validation_0001_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0001.png",
+  "page_number": 1
+}

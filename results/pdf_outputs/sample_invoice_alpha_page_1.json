@@ -1,0 +1,34 @@
+{
+  "document_type": "invoice",
+  "vendor_name": "Alpha Office Supplies",
+  "date": "2026-04-12",
+  "total_amount": "$133.00",
+  "currency": "USD",
+  "key_value_pairs": [
+    {
+      "field": "invoice_number",
+      "value": "INV-24012"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Printer Paper",
+      "quantity": "4",
+      "price": "$12.00"
+    },
+    {
+      "name": "Toner Cartridge",
+      "quantity": "1",
+      "price": "$85.00"
+    }
+  ],
+  "form_fields": [],
+  "signature_present": "no",
+  "summary": "Invoice from Alpha Office Supplies dated 2026-04-12.",
+  "raw_response": "```json\n{\n  \"document_type\": \"invoice\",\n  \"vendor_name\": \"Alpha Office Supplies\",\n  \"date\": \"2026-04-12\",\n  \"total_amount\": \"$133.00\",\n  \"currency\": \"USD\",\n  \"key_value_pairs\": [\n    {\n      \"field\": \"invoice_number\",\n      \"value\": \"INV-24012\"\n    }\n  ],\n  \"line_items\": [\n    {\n      \"name\": \"Printer Paper\",\n      \"quantity\": \"4\",\n      \"price\": \"$12.00\"\n    },\n    {\n      \"name\": \"Toner Cartridge\",\n      \"quantity\": \"1\",\n      \"price\": \"$85.00\"\n    }\n  ],\n  \"form_fields\": [],\n  \"signature_present\": \"no\",\n  \"summary\": \"Invoice from Alpha Office Supplies dated 2026-04-12.\"\n}\n```",
+  "page_path": "results/processed_pages/sample_invoice_alpha_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "generic_document",
+  "document_name": "sample_invoice_alpha.pdf",
+  "page_number": 1
+}

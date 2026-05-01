@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "Choco Devil",
+      "cnt": "4",
+      "unitprice": "63,636",
+      "price": "-9,545"
+    },
+    {
+      "nm": "CP 360 Club Card",
+      "cnt": "1",
+      "unitprice": "5,409",
+      "price": "5,409"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "63,636",
+    "discount_price": "-9,545",
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "59,500",
+    "cashprice": "100,000",
+    "changeprice": "40,500",
+    "creditcardprice": null,
+    "menuqty_cnt": "1"
+  },
+  "raw_response": "```json\n{\n  \"menu\": [\n    {\n      \"nm\": \"Choco Devil\",\n      \"cnt\": \"4\",\n      \"unitprice\": \"63,636\",\n      \"price\": \"-9,545\"\n    },\n    {\n      \"nm\": \"CP 360 Club Card\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5,409\",\n      \"price\": \"5,409\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"63,636\",\n    \"discount_price\": \"-9,545\",\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"59,500\",\n    \"cashprice\": \"100,000\",\n    \"changeprice\": \"40,500\",\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"1\"\n  }\n}\n```",
+  "page_path": "results/compare_processed_qwen2_5_vl_3b/cord_validation_0007_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0007.png",
+  "page_number": 1
+}

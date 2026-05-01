@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "REAL GANACHE",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "16,500"
+    },
+    {
+      "nm": "EGG TART",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "13,000"
+    },
+    {
+      "nm": "PIZZA TOAST",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "16,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": null,
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "45,500",
+    "cashprice": "50,000",
+    "changeprice": "4,500",
+    "creditcardprice": null,
+    "menuqty_cnt": null
+  }
+}

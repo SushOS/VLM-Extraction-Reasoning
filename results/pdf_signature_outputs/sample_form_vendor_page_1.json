@@ -1,0 +1,9 @@
+{
+  "signature_present": "no",
+  "raw_response": "{\n  \"signature_present\": \"no\"\n}",
+  "page_path": "results/processed_pages/sample_form_vendor_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "signature_check",
+  "document_name": "sample_form_vendor.pdf",
+  "page_number": 1
+}

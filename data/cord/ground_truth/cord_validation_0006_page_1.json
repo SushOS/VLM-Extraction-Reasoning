@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "POTATO SAUSAGE BREAD",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "19,000"
+    },
+    {
+      "nm": "OREO GREEN TEA SPREAD",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "52,000"
+    },
+    {
+      "nm": "WHITE CHOCO BANANA SPREAD",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "52,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": null,
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "123,000",
+    "cashprice": null,
+    "changeprice": null,
+    "creditcardprice": "123,000",
+    "menuqty_cnt": null
+  }
+}

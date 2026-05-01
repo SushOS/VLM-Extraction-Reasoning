@@ -1,0 +1,6 @@
+document,exact_match,precision,recall,f1,signature_accuracy,signature_precision,signature_recall,signature_f1
+sample_agreement_service_page_1,0.0,0.0,0.0,0.0,,,,
+sample_form_vendor_page_1,0.0,0.0,0.0,0.0,,,,
+sample_invoice_alpha_page_1,0.0,0.0,0.0,0.0,,,,
+sample_receipt_cafe_page_1,0.0,0.0,0.0,0.0,,,,
+AVERAGE,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0

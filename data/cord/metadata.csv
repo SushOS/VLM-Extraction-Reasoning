@@ -1,0 +1,11 @@
+document_id,image_path,ground_truth_path,split
+cord_validation_0000,data/cord/images/cord_validation_0000.png,data/cord/ground_truth/cord_validation_0000_page_1.json,validation
+cord_validation_0001,data/cord/images/cord_validation_0001.png,data/cord/ground_truth/cord_validation_0001_page_1.json,validation
+cord_validation_0002,data/cord/images/cord_validation_0002.png,data/cord/ground_truth/cord_validation_0002_page_1.json,validation
+cord_validation_0003,data/cord/images/cord_validation_0003.png,data/cord/ground_truth/cord_validation_0003_page_1.json,validation
+cord_validation_0004,data/cord/images/cord_validation_0004.png,data/cord/ground_truth/cord_validation_0004_page_1.json,validation
+cord_validation_0005,data/cord/images/cord_validation_0005.png,data/cord/ground_truth/cord_validation_0005_page_1.json,validation
+cord_validation_0006,data/cord/images/cord_validation_0006.png,data/cord/ground_truth/cord_validation_0006_page_1.json,validation
+cord_validation_0007,data/cord/images/cord_validation_0007.png,data/cord/ground_truth/cord_validation_0007_page_1.json,validation
+cord_validation_0008,data/cord/images/cord_validation_0008.png,data/cord/ground_truth/cord_validation_0008_page_1.json,validation
+cord_validation_0009,data/cord/images/cord_validation_0009.png,data/cord/ground_truth/cord_validation_0009_page_1.json,validation

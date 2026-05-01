@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "nm": "POTATO SAUSAGE BREAD",
+      "cnt": "1",
+      "unitprice": "19,000",
+      "price": "19,000"
+    },
+    {
+      "nm": "OREO GREEN TEA SPREAD",
+      "cnt": "1",
+      "unitprice": "52,000",
+      "price": "52,000"
+    },
+    {
+      "nm": "WHITE CHOCO BANANA SPREAD",
+      "cnt": "1",
+      "unitprice": "52,000",
+      "price": "52,000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "123,000",
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "123,000",
+    "cashprice": "123,000",
+    "changeprice": null,
+    "creditcardprice": null,
+    "menuqty_cnt": "1"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"POTATO SAUSAGE BREAD\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"19,000\",\n      \"price\": \"19,000\"\n    },\n    {\n      \"nm\": \"OREO GREEN TEA SPREAD\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"52,000\",\n      \"price\": \"52,000\"\n    },\n    {\n      \"nm\": \"WHITE CHOCO BANANA SPREAD\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"52,000\",\n      \"price\": \"52,000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"123,000\",\n    \"discount_price\": null,\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"123,000\",\n    \"cashprice\": \"123,000\",\n    \"changeprice\": null,\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"1\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b/cord_validation_0006_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0006.png",
+  "page_number": 1
+}

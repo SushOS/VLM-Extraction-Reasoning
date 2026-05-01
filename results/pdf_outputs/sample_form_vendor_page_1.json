@@ -1,0 +1,44 @@
+{
+  "document_type": "form",
+  "vendor_name": "Northwind Traders",
+  "date": "2026-04-15",
+  "total_amount": null,
+  "currency": null,
+  "key_value_pairs": [
+    {
+      "field": "Company Name",
+      "value": "Northwind Traders"
+    },
+    {
+      "field": "Tax ID",
+      "value": "47-110291"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Bank Account",
+      "quantity": null,
+      "price": null
+    }
+  ],
+  "form_fields": [
+    {
+      "field": "Company Name",
+      "status": "filled",
+      "value": "Northwind Traders"
+    },
+    {
+      "field": "Tax ID",
+      "status": "filled",
+      "value": "47-110291"
+    }
+  ],
+  "signature_present": "no",
+  "summary": "Vendor Registration Form for Northwind Traders on 2026-04-15.",
+  "raw_response": "```json\n{\n  \"document_type\": \"form\",\n  \"vendor_name\": \"Northwind Traders\",\n  \"date\": \"2026-04-15\",\n  \"total_amount\": null,\n  \"currency\": null,\n  \"key_value_pairs\": [\n    {\n      \"field\": \"Company Name\",\n      \"value\": \"Northwind Traders\"\n    },\n    {\n      \"field\": \"Tax ID\",\n      \"value\": \"47-110291\"\n    }\n  ],\n  \"line_items\": [\n    {\n      \"name\": \"Bank Account\",\n      \"quantity\": null,\n      \"price\": null\n    }\n  ],\n  \"form_fields\": [\n    {\n      \"field\": \"Company Name\",\n      \"status\": \"filled\",\n      \"value\": \"Northwind Traders\"\n    },\n    {\n      \"field\": \"Tax ID\",\n      \"status\": \"filled\",\n      \"value\": \"47-110291\"\n    }\n  ],\n  \"signature_present\": \"no\",\n  \"summary\": \"Vendor Registration Form for Northwind Traders on 2026-04-15.\"\n}\n```",
+  "page_path": "results/processed_pages/sample_form_vendor_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "generic_document",
+  "document_name": "sample_form_vendor.pdf",
+  "page_number": 1
+}

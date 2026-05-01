@@ -1,0 +1,22 @@
+{
+  "menu": [],
+  "sub_total": {
+    "subtotal_price": null,
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": null,
+    "cashprice": null,
+    "changeprice": null,
+    "creditcardprice": null,
+    "menuqty_cnt": null
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@650\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"",
+  "page_path": "results/compare_processed_smolvlm2_2b_finetuned/cord_validation_0008_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0008.png",
+  "page_number": 1
+}

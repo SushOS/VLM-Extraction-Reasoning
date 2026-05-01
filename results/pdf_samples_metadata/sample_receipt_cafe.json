@@ -1,0 +1,27 @@
+{
+  "name": "sample_receipt_cafe",
+  "title": "Lakeview Cafe",
+  "doc_type": "Receipt",
+  "date": "2026-04-18",
+  "ref": "RCPT-1138",
+  "rows": [
+    [
+      "Latte",
+      "2",
+      "$9.00"
+    ],
+    [
+      "Croissant",
+      "1",
+      "$4.50"
+    ],
+    [
+      "Tax",
+      "",
+      "$1.08"
+    ]
+  ],
+  "total": "$14.58",
+  "signature": false,
+  "form_fields": []
+}

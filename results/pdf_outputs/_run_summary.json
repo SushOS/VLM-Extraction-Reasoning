@@ -1,0 +1,18 @@
+{
+  "model": "qwen2_5_vl_3b",
+  "adapter_path": "",
+  "documents": {
+    "sample_agreement_service.pdf": [
+      "results/pdf_outputs/sample_agreement_service_page_1.json"
+    ],
+    "sample_form_vendor.pdf": [
+      "results/pdf_outputs/sample_form_vendor_page_1.json"
+    ],
+    "sample_invoice_alpha.pdf": [
+      "results/pdf_outputs/sample_invoice_alpha_page_1.json"
+    ],
+    "sample_receipt_cafe.pdf": [
+      "results/pdf_outputs/sample_receipt_cafe_page_1.json"
+    ]
+  }
+}

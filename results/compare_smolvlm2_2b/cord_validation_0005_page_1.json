@@ -1,0 +1,22 @@
+{
+  "menu": [],
+  "sub_total": {
+    "subtotal_price": null,
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": null,
+    "cashprice": null,
+    "changeprice": null,
+    "creditcardprice": null,
+    "menuqty_cnt": null
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"5.99\",\n      \"price\": \"5.99\"\n    },\n    {\n      \"nm\": \"\uc544\uc774\uc2a4\ud06c\ub9bc\",\n      \"cnt\": \"1\",\n      \"unit",
+  "page_path": "results/compare_processed_smolvlm2_2b/cord_validation_0005_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0005.png",
+  "page_number": 1
+}

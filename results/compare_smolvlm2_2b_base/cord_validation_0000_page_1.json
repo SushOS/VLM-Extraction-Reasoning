@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "nm": "REAL CHA\u00c9NE",
+      "cnt": "1",
+      "unitprice": "16500",
+      "price": "16500"
+    },
+    {
+      "nm": "EGG TART",
+      "cnt": "1",
+      "unitprice": "13000",
+      "price": "13000"
+    },
+    {
+      "nm": "PIZZA TOAST",
+      "cnt": "1",
+      "unitprice": "16000",
+      "price": "16000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "45500",
+    "discount_price": "0",
+    "service_price": "0",
+    "tax_price": "0"
+  },
+  "total": {
+    "total_price": "45500",
+    "cashprice": "45500",
+    "changeprice": "0",
+    "creditcardprice": "0",
+    "menuqty_cnt": "1"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"REAL CHA\\u00c9NE\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"16500\",\n      \"price\": \"16500\"\n    },\n    {\n      \"nm\": \"EGG TART\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"13000\",\n      \"price\": \"13000\"\n    },\n    {\n      \"nm\": \"PIZZA TOAST\",\n      \"cnt\": \"1\",\n      \"unitprice\": \"16000\",\n      \"price\": \"16000\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"45500\",\n    \"discount_price\": \"0\",\n    \"service_price\": \"0\",\n    \"tax_price\": \"0\"\n  },\n  \"total\": {\n    \"total_price\": \"45500\",\n    \"cashprice\": \"45500\",\n    \"changeprice\": \"0\",\n    \"creditcardprice\": \"0\",\n    \"menuqty_cnt\": \"1\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_base/cord_validation_0000_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0000.png",
+  "page_number": 1
+}

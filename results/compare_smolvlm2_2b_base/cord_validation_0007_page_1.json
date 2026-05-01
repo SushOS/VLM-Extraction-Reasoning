@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "nm": "Chopra Devi",
+      "cnt": "4",
+      "unitprice": "CP 360 Cw Card",
+      "price": "-9,545"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "0,000",
+    "discount_price": "-9,545",
+    "service_price": "0,000",
+    "tax_price": "0,409"
+  },
+  "total": {
+    "total_price": "39,500",
+    "cashprice": "100,000",
+    "changeprice": "40,500",
+    "creditcardprice": "0,000",
+    "menuqty_cnt": "4"
+  },
+  "raw_response": " {\n  \"menu\": [\n    {\n      \"nm\": \"Chopra Devi\",\n      \"cnt\": \"4\",\n      \"unitprice\": \"CP 360 Cw Card\",\n      \"price\": \"-9,545\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"0,000\",\n    \"discount_price\": \"-9,545\",\n    \"service_price\": \"0,000\",\n    \"tax_price\": \"0,409\"\n  },\n  \"total\": {\n    \"total_price\": \"39,500\",\n    \"cashprice\": \"100,000\",\n    \"changeprice\": \"40,500\",\n    \"creditcardprice\": \"0,000\",\n    \"menuqty_cnt\": \"4\"\n  }\n}",
+  "page_path": "results/compare_processed_smolvlm2_2b_base/cord_validation_0007_page_1.png",
+  "model_name": "smolvlm2_2b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0007.png",
+  "page_number": 1
+}

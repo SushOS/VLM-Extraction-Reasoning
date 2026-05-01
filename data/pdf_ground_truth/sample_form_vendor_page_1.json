@@ -1,0 +1,61 @@
+{
+  "document_type": "form",
+  "vendor_name": "Vendor Registration Form",
+  "date": "2026-04-15",
+  "total_amount": null,
+  "currency": null,
+  "key_value_pairs": [
+    {
+      "field": "document_type",
+      "value": "Form"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Vendor Registration Form"
+    },
+    {
+      "field": "date",
+      "value": "2026-04-15"
+    },
+    {
+      "field": "reference",
+      "value": "FORM-991"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Company Name",
+      "quantity": "Northwind Traders",
+      "price": null
+    },
+    {
+      "name": "Tax ID",
+      "quantity": "47-110291",
+      "price": null
+    },
+    {
+      "name": "Bank Account",
+      "quantity": null,
+      "price": null
+    }
+  ],
+  "form_fields": [
+    {
+      "field": "Company Name",
+      "status": "filled",
+      "value": "Northwind Traders"
+    },
+    {
+      "field": "Tax ID",
+      "status": "filled",
+      "value": "47-110291"
+    },
+    {
+      "field": "Bank Account",
+      "status": "empty",
+      "value": null
+    }
+  ],
+  "signature_present": "no",
+  "summary": "Form for Vendor Registration Form"
+}

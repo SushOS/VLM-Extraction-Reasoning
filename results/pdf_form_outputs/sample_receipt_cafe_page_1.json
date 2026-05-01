@@ -1,0 +1,9 @@
+{
+  "form_fields": [],
+  "raw_response": "[\n  {\n    \"field\": \"Document Type\",\n    \"status\": \"filled\",\n    \"value\": \"Receipt\"\n  },\n  {\n    \"field\": \"Date\",\n    \"status\": \"filled\",\n    \"value\": \"2026-04-18\"\n  },\n  {\n    \"field\": \"Reference\",\n    \"status\": \"filled\",\n    \"value\": \"RCPT-1138\"\n  },\n  {\n    \"field\": \"Field\",\n    \"status\": \"filled\",\n    \"value\": \"Latte\"\n  },\n  {\n    \"field\": \"Value / Qty\",\n    \"status\": \"filled\",\n    \"value\": \"2\"\n  },\n  {\n    \"field\": \"Amount\",\n    \"status\": \"filled\",\n    \"value\": \"$9.00\"\n  },\n  {\n    \"field\": \"Field\",\n    \"status\": \"filled\",\n    \"value\": \"Croissant\"\n  },\n  {\n    \"field\": \"Value / Qty\",\n    \"status\": \"filled\",\n    \"value\": \"1\"\n  },\n  {\n    \"field\": \"Amount\",\n    \"status\": \"filled\",\n    \"value\": \"$4.50\"\n  },\n  {\n    \"field\": \"Field\",\n    \"status\": \"filled\",\n    \"value\": \"Tax\"\n  },\n  {\n    \"field\": \"Value / Qty\",\n    \"status\": \"filled\",\n    \"value\": \"\"\n  },\n  {\n    \"field\": \"Amount\",\n    \"status\": \"filled\",\n    \"value\": \"$1.08\"\n  },\n  {\n    \"field\": \"Total\",\n    \"status\": \"filled\",\n    \"value\": \"$14.58\"\n  }\n]",
+  "page_path": "results/processed_pages/sample_receipt_cafe_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "form_fields",
+  "document_name": "sample_receipt_cafe.pdf",
+  "page_number": 1
+}

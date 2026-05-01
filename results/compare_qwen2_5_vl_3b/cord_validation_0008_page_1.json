@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "nm": "TALAM UNGU",
+      "cnt": "3X",
+      "unitprice": "@5500",
+      "price": "19,500"
+    },
+    {
+      "nm": "MIKA KECIL",
+      "cnt": "1X",
+      "unitprice": "@0",
+      "price": "0"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": "11,700",
+    "discount_price": "-7,800",
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "11,700",
+    "cashprice": "20,000",
+    "changeprice": "8,300",
+    "creditcardprice": null,
+    "menuqty_cnt": "4.00xITEMs"
+  },
+  "raw_response": "```json\n{\n  \"menu\": [\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": \"3X\",\n      \"unitprice\": \"@5500\",\n      \"price\": \"19,500\"\n    },\n    {\n      \"nm\": \"MIKA KECIL\",\n      \"cnt\": \"1X\",\n      \"unitprice\": \"@0\",\n      \"price\": \"0\"\n    }\n  ],\n  \"sub_total\": {\n    \"subtotal_price\": \"11,700\",\n    \"discount_price\": \"-7,800\",\n    \"service_price\": null,\n    \"tax_price\": null\n  },\n  \"total\": {\n    \"total_price\": \"11,700\",\n    \"cashprice\": \"20,000\",\n    \"changeprice\": \"8,300\",\n    \"creditcardprice\": null,\n    \"menuqty_cnt\": \"4.00xITEMs\"\n  }\n}\n```",
+  "page_path": "results/compare_processed_qwen2_5_vl_3b/cord_validation_0008_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "cord_receipt",
+  "document_name": "cord_validation_0008.png",
+  "page_number": 1
+}

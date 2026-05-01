@@ -1,0 +1,9 @@
+{
+  "form_fields": [],
+  "raw_response": "[\n  {\n    \"field\": \"Document Type\",\n    \"status\": \"filled\",\n    \"value\": \"Invoice\"\n  },\n  {\n    \"field\": \"Date\",\n    \"status\": \"filled\",\n    \"value\": \"2026-04-12\"\n  },\n  {\n    \"field\": \"Reference\",\n    \"status\": \"filled\",\n    \"value\": \"INV-24012\"\n  },\n  {\n    \"field\": \"Field\",\n    \"status\": \"filled\",\n    \"value\": \"Printer Paper\"\n  },\n  {\n    \"field\": \"Value / Qty\",\n    \"status\": \"filled\",\n    \"value\": \"4\"\n  },\n  {\n    \"field\": \"Amount\",\n    \"status\": \"filled\",\n    \"value\": \"$12.00\"\n  },\n  {\n    \"field\": \"Field\",\n    \"status\": \"filled\",\n    \"value\": \"Toner Cartridge\"\n  },\n  {\n    \"field\": \"Value / Qty\",\n    \"status\": \"filled\",\n    \"value\": \"1\"\n  },\n  {\n    \"field\": \"Amount\",\n    \"status\": \"filled\",\n    \"value\": \"$85.00\"\n  },\n  {\n    \"field\": \"Total\",\n    \"status\": \"filled\",\n    \"value\": \"$133.00\"\n  }\n]",
+  "page_path": "results/processed_pages/sample_invoice_alpha_page_1.png",
+  "model_name": "qwen2_5_vl_3b",
+  "task_name": "form_fields",
+  "document_name": "sample_invoice_alpha.pdf",
+  "page_number": 1
+}

@@ -1,0 +1,23 @@
+{
+  "menu": [
+    {
+      "nm": "Kopi Susu Kolonel",
+      "cnt": "1",
+      "unitprice": null,
+      "price": "23.000"
+    }
+  ],
+  "sub_total": {
+    "subtotal_price": null,
+    "discount_price": null,
+    "service_price": null,
+    "tax_price": null
+  },
+  "total": {
+    "total_price": "23.000",
+    "cashprice": "50.000",
+    "changeprice": "27.000",
+    "creditcardprice": null,
+    "menuqty_cnt": null
+  }
+}

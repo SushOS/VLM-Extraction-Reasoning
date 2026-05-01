@@ -1,0 +1,49 @@
+{
+  "document_type": "receipt",
+  "vendor_name": "Lakeview Cafe",
+  "date": "2026-04-18",
+  "total_amount": "$14.58",
+  "currency": "USD",
+  "key_value_pairs": [
+    {
+      "field": "document_type",
+      "value": "Receipt"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Lakeview Cafe"
+    },
+    {
+      "field": "date",
+      "value": "2026-04-18"
+    },
+    {
+      "field": "reference",
+      "value": "RCPT-1138"
+    },
+    {
+      "field": "total_amount",
+      "value": "$14.58"
+    }
+  ],
+  "line_items": [
+    {
+      "name": "Latte",
+      "quantity": "2",
+      "price": "$9.00"
+    },
+    {
+      "name": "Croissant",
+      "quantity": "1",
+      "price": "$4.50"
+    },
+    {
+      "name": "Tax",
+      "quantity": null,
+      "price": "$1.08"
+    }
+  ],
+  "form_fields": [],
+  "signature_present": "no",
+  "summary": "Receipt for Lakeview Cafe"
+}

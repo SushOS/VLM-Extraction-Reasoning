@@ -1,0 +1,22 @@
+{
+  "name": "sample_invoice_alpha",
+  "title": "Alpha Office Supplies",
+  "doc_type": "Invoice",
+  "date": "2026-04-12",
+  "ref": "INV-24012",
+  "rows": [
+    [
+      "Printer Paper",
+      "4",
+      "$12.00"
+    ],
+    [
+      "Toner Cartridge",
+      "1",
+      "$85.00"
+    ]
+  ],
+  "total": "$133.00",
+  "signature": true,
+  "form_fields": []
+}
