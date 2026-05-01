@@ -136,6 +136,31 @@ PROMPTS = {
     "cord_receipt": CORD_EXTRACTION_PROMPT,
 }
 
+
+def disable_incompatible_torchao() -> None:
+    """Avoid PEFT crashing when an unsupported torchao version is installed."""
+    try:
+        import peft.import_utils as peft_import_utils
+    except ImportError:
+        return
+
+    original = peft_import_utils.is_torchao_available
+
+    def safe_is_torchao_available() -> bool:
+        try:
+            return bool(original())
+        except ImportError:
+            return False
+
+    peft_import_utils.is_torchao_available = safe_is_torchao_available
+
+    try:
+        import peft.tuners.lora.torchao as peft_torchao
+    except ImportError:
+        return
+
+    peft_torchao.is_torchao_available = safe_is_torchao_available
+
 TOP_LEVEL_KEYS = {
     "generic_document": {
         "document_type",
@@ -293,13 +318,14 @@ class VLMExtractor:
         torch_dtype = torch.float16 if self.device in {"cuda", "mps"} else torch.float32
         self.processor = AutoProcessor.from_pretrained(model_id)
         model_kwargs = {
-            "torch_dtype": torch_dtype,
+            "dtype": torch_dtype,
             "trust_remote_code": True,
         }
         if self.device == "cuda":
             model_kwargs["device_map"] = "auto"
         self.model = AutoModelForImageTextToText.from_pretrained(model_id, **model_kwargs)
         if self.adapter_path:
+            disable_incompatible_torchao()
             from peft import PeftModel
 
             self.model = PeftModel.from_pretrained(self.model, self.adapter_path)
