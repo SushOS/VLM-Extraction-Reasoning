@@ -68,12 +68,17 @@ def main() -> None:
     parser.add_argument("--ground-truth-dir", default="")
     parser.add_argument("--config", default="config.yaml")
     parser.add_argument("--model", default="")
+    parser.add_argument("--adapter-path", default="")
     parser.add_argument("--task-name", default="generic_document", choices=TASK_CHOICES)
     args = parser.parse_args()
 
     config = load_config(args.config)
     model_name = args.model or config["default_model"]
-    extractor = VLMExtractor(model_name=model_name, max_new_tokens=config["max_new_tokens"])
+    extractor = VLMExtractor(
+        model_name=model_name,
+        max_new_tokens=config["max_new_tokens"],
+        adapter_path=args.adapter_path or None,
+    )
 
     processed: dict[str, list[str]] = {}
     for input_file in load_inputs(args.input):
@@ -89,6 +94,7 @@ def main() -> None:
 
     run_summary = {
         "model": model_name,
+        "adapter_path": args.adapter_path,
         "documents": processed,
     }
     summary_path = Path(args.output_dir) / "_run_summary.json"
