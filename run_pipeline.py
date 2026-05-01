@@ -17,7 +17,11 @@ def load_config(path: str | Path) -> dict:
 
 TASK_CHOICES = [
     "generic_document",
-
+    "key_value_pairs",
+    "signature_check",
+    "form_fields",
+    "receipt_summary",
+    "cord_receipt",
 ]
 
 
