@@ -283,6 +283,7 @@ Previous answer to repair:
 class VLMExtractor:
     model_name: str
     max_new_tokens: int = 700
+    adapter_path: str | None = None
 
     def __post_init__(self) -> None:
         if self.model_name not in MODEL_CONFIGS:
@@ -298,6 +299,10 @@ class VLMExtractor:
         if self.device == "cuda":
             model_kwargs["device_map"] = "auto"
         self.model = AutoModelForImageTextToText.from_pretrained(model_id, **model_kwargs)
+        if self.adapter_path:
+            from peft import PeftModel
+
+            self.model = PeftModel.from_pretrained(self.model, self.adapter_path)
         if self.device in {"cpu", "mps"}:
             self.model.to(self.device)
 
