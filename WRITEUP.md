@@ -131,3 +131,5 @@ I fine-tune the smaller baseline model rather than the stronger primary model be
 - Expand evaluation with a labeled signature/form dataset instead of synthetic-only checks.
 - Increase the CORD evaluation size and run training / inference on stronger GPU hardware.
 - Version prompts, configs, and outputs more formally for auditability.
+- If the hardware permits we could use faster inference engines like vllm.
+- Use bigger SOTA VLMs.
